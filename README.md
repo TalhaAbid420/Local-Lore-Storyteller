@@ -1,32 +1,32 @@
-# 🏰 Local-Lore Storyteller
+# Local-Lore Storyteller 🏰📖
 
-An interactive, multimodal AI educational platform built for **Hack Days Ankara: Build with Gemini**. This application transforms global history, ancient artifacts, and local cultural landmarks into immersive, gamified adventures told through dynamic, unexpected character personas.
+An interactive generative AI application that transforms local historical facts, regional folklore, and cultural context into vivid, custom-tailored stories. Powered by the Google GenAI SDK and Streamlit, this project demonstrates a complete deployment pipeline utilizing containerized environments.
 
----
-
-## 🚀 Features
-
-*   **⚡ Adventure & Quiz Mode:** Input any historical landmark, figure, or event. Choose a storytelling persona (e.g., Cyberpunk Time-Traveler) and language. Gemini generates an engaging narrative and outputs a structured, interactive trivia pop quiz with live UI feedback.
-*   **👁️ Multimodal Image Chat:** Upload any historical photo, ancient coin, painting, or architectural site. The app instantly identifies the object, provides an analytical cultural breakdown, and opens a continuous chat session to answer questions about the visual context.
-*   **🌐 Fully Multilingual:** Seamlessly outputs narratives and interactive content in English, Turkish, Urdu, Arabic, and Spanish.
+🚀 **[Live Demo on Hugging Face Spaces](https://talhabid420-local-lore-storyteller.hf.space)**
 
 ---
 
-## 🛠️ Tech Stack
+## 🌟 Features
 
-*   **Language:** Python 3.10+
-*   **Frontend Framework:** Streamlit (Modern Web Interface)
-*   **AI Engine:** Google Gemini API (`gemini-2.5-flash`)
-*   **SDK:** Google GenAI SDK (`google-genai`)
-*   **Image Processing:** Pillow (PIL)
+*   **Cultural Preservation:** Generates narratives rooted deeply in accurate regional histories, localized idioms, and custom settings.
+*   **Multimodal Asset Ingestion:** Supports context pairing using direct text instructions alongside structured payload inputs.
+*   **Production API Pipeline:** Utilizes the state-of-the-art `google-genai` client orchestration layer to securely manage asynchronous text generation.
+*   **Streamlined UI:** A clean, responsive interface engineered using Streamlit for low-latency configuration and presentation.
+
+## 🛠️ Tech Stack & Architecture
+
+*   **Frontend Interface:** Streamlit 
+*   **AI Engine:** Google Gemini Pro API (`gemini-2.5-flash`)
+*   **Core SDK:** Google GenAI Python Library (`google-genai`)
+*   **Deployment & Virtualization:** Docker + Hugging Face Spaces Container
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Local Development Setup
 
-Follow these quick steps to get the application running locally on your machine.
+To run this project locally, ensure you have **Python 3.10+** installed, along with a valid API Key from [Google AI Studio](https://aistudio.google.com/).
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone [https://github.com/YOUR_USERNAME/local-lore-storyteller.git](https://github.com/YOUR_USERNAME/local-lore-storyteller.git)
+cd local-lore-storyteller
